@@ -110,4 +110,4 @@ for i in range(0 ,len(df)):
 # 表の描画します。
 st.dataframe(df.head(n=36))
 # データフレームのチャートの描画します。
-st.line_chart(df)
+st.scatter_chart(df, x="reviewAverage", y=""hotelMinCharge"")
